@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">g00gle</string>
+
+    <!-- Add these two lines -->
+    <string name="open">Abrir menú</string>
+    <string name="close">Cerrar menú</string>
+
+    <!-- You might also need these for your navigation menu if they aren't defined -->
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_web">Web</string>
+    <string name="nav_alquiler">Alquiler</string>
+    <string name="nav_bd">Base de Datos</string>
+    <string name="nav_acerca">Acerca de</string>
 </resources>

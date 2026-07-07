@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!-- Grupo principal de navegación (se permite seleccionar una sola opción a la vez) -->
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Inicio" />
+
+        <item
+            android:id="@+id/nav_web"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="Página Web (Ngrok)" />
+
+        <item
+            android:id="@+id/nav_alquiler"
+            android:icon="@android:drawable/ic_menu_directions"
+            android:title="Alquiler Vehicular" />
+
+        <item
+            android:id="@+id/nav_bd"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Base de Datos (PHPMyAdmin)" />
+
+    </group>
+
+    <!-- Submenú inferior separado por una línea divisoria automática -->
+    <item android:title="Información">
+        <menu>
+            <item
+                android:id="@+id/nav_acerca"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="Acerca de G00gle" />
+        </menu>
+    </item>
+
+</menu>
